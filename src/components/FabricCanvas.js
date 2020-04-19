@@ -9,7 +9,16 @@ export default class FabricCanvas extends React.Component {
     });
 
     canvas.add(this.props.rect);
-    canvas.add(this.props.rect2);
+
+    canvas.add(
+      new fabric.Rect({
+        top: 150,
+        left: 150,
+        width: 60,
+        height: 70,
+        fill: "blue",
+      })
+    );
   }
 
   render() {

@@ -14,15 +14,6 @@ const FC = (props) => {
           fill: "red",
         })
       }
-      rect2={
-        new fabric.Rect({
-          top: 150,
-          left: 150,
-          width: 60,
-          height: 70,
-          fill: "blue",
-        })
-      }
     />
   );
 };
